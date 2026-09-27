@@ -1,0 +1,5 @@
+-keep class com.ivyiot.** { *; }
+-keep class com.ivyio.** { *; }
+-dontwarn java.beans.**
+-dontwarn org.apache.log4j.**
+-dontwarn org.apache.log4j.config.**

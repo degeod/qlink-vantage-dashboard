@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rootStorage Type="CStorage">
+	<Public_BOStorage Type="CStorage">
+		<GUID_BusObject Type="GUID">{EBCA4925-C554-4800-9789-DD8B603DA616}</GUID_BusObject>
+		<Id_BusObject Type="uint">1049</Id_BusObject>
+		<Name_BusObject Type="string">thuis</Name_BusObject>
+		<StubGUID_BusObject Type="GUID">{75494D69-1788-460C-A6B8-7788B857FA56}</StubGUID_BusObject>
+		<StubGUID_BusObject Type="GUID">{FA916860-1039-11D2-AE25-0060082C6D2A}</StubGUID_BusObject>
+		<StubGUID_BusObject Type="GUID">{493C0020-0011-11D4-87B4-00C04F75DEE7}</StubGUID_BusObject>
+		<LocationId_HA_ Type="uint">1053</LocationId_HA_>
+		<SerialPortType_HA_ Type="string">TCP/IP</SerialPortType_HA_>
+		<TCPHostName_HA_ Type="string">192.168.1.33</TCPHostName_HA_>
+		<TCPPort_HA_ Type="short">3041</TCPPort_HA_>
+		<ComPort_HA_ Type="string">TCP/IP</ComPort_HA_>
+		<HostPort_VQM Type="short">3041</HostPort_VQM>
+		<QLinkPort_VQM Type="short">3040</QLinkPort_VQM>
+		<FlashHostPort_VQM Type="short">3042</FlashHostPort_VQM>
+	</Public_BOStorage>
+	<Protected_BOStorage Type="CStorage">
+	</Protected_BOStorage>
+</rootStorage>

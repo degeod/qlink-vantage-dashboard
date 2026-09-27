@@ -1,0 +1,42 @@
+name: vantage_control
+description: Modern Android control client for Vantage Q-system via VCommand.
+publish_to: "none"
+version: 1.0.1+2
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+  shared_preferences: ^2.3.2
+  path_provider: ^2.1.5
+  file_picker: ^8.1.2
+  xml: ^6.5.0
+  http: ^1.2.2
+  camera: ^0.11.2+1
+  wakelock_plus: ^1.4.0
+  permission_handler: 11.3.1
+  webview_flutter: ^4.13.1
+  flutter_svg: ^2.0.10+1
+  flutter_inset_shadow: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/project/config.xml
+    - assets/project/master.xml
+    - assets/docs/AGENTS.md
+    - assets/docs/START_HERE.md
+    - assets/remote/header-logo.png
+    - assets/icons/
+    - assets/weather/
+    - assets/backgrounds/
